@@ -27,4 +27,4 @@ This project is maintained by Ducksquaddd.
 This project may or may not support Python in the upcoming updates. It all depends on whether the Node.js side of things is all complete and the Hub is fully functional.
 
 # Discord
-You can join Ducksquaddd's discord server [here](https://discord.gg/9ekejd7uc5)!
+You can join Vedux's discord server [here](https://discord.gg/9ekejd7uc5)!
