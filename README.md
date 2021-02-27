@@ -11,10 +11,9 @@ Open up the console, Then paste this in <br>`git clone https://github.com/ducksq
 Since you've cloned the project, you should already be in the designated folder.<br>You'll then type `node app.js` to start it.<br>Rest is Self-Explanatory.  
 
 # New
-Release Date: `2/18/21` <br>
-Update Version: `0.2.4` <br>
-In this update, we have released a way to update the code from within itself.<br>
-Thanks to [TheMeow](https://themeow.ml/) for helping us!<br>
+Release Date: `2/26/21` <br>
+Update Version: `0.2.6` <br>
+In this update you can now add a status to discord.js bots using the "basic bot with command handler" project starter
 
 # More
 
