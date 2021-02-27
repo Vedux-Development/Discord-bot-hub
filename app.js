@@ -9,7 +9,7 @@ var version = "0.2.6-stable";
 var botDir;
 
 console.log(
-  "Welcome to Ducksquads discord bot hub version " + version + "\nPlease Select what you are here for"
+  "Welcome to Vedux's discord bot hub version " + version + "\nPlease Select what you are here for"
 );
 console.log(
   "[1] Would you like to manage bots? \n[2] Would you like to setup a bot? \n[3] Would you like to update DBH?"
