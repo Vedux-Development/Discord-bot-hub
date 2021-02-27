@@ -6,7 +6,7 @@ This is a Node.js program designed to make managing discord.js bots easier. It c
 
 # Setting this project up!
 * First<br>
-Open up the console, Then paste this in <br>`git clone https://github.com/ducksquaddd/Discord-bot-hub.git && cd Discord-bot-hub && npm start`<br>Basically, what this is doing is it's setting up the project and installing all the packages.<br>
+Open up the console, Then paste this in <br>`git clone https://github.com/Vedux-Development/Discord-bot-hub.git && cd Discord-bot-hub && npm start`<br>Basically, what this is doing is it's setting up the project and installing all the packages.<br>
 * Second <br>
 Since you've cloned the project, you should already be in the designated folder.<br>You'll then type `node app.js` to start it.<br>Rest is Self-Explanatory.  
 
