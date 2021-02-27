@@ -16,7 +16,7 @@ console.log(
 );
 var ManageInstall = parseInt(prompt("Answer Here (1/2/3): "));
 if (ManageInstall == 1) {
-  console.log("Please wait while you get redirected");a
+  console.log("Please wait while you get redirected");
   console.log(blank);
   readline.cursorTo(process.stdout, 0, 0);
   readline.clearScreenDown(process.stdout);
