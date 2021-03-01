@@ -1,4 +1,3 @@
-
 const prompt = require("prompt-sync")();
 var shell = require("shelljs");
 shell.config.verbose = false;
@@ -11,4 +10,3 @@ const cdfile = prompt("What bot would you like to manage: ");
 shell.cd(`${cdfile}`);
 
 require("child_process").fork("manage.js");
-//ls --ignore={"*start.js","*managebots.js","*package.json","*package-lock.json","*node_modules","*LICENSE"}
