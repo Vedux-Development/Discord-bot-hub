@@ -28,3 +28,29 @@ This project may or may not support Python in the upcoming updates. It all depen
 
 # Discord
 You can join Vedux's discord server [here](https://discord.gg/9ekejd7uc5)!
+
+# Vedux
+## Discord bot hub
+Discord bot project manager
+
+## Features
+
+- Install Discord bot templates
+- See all of your projects
+- Update packages
+- Install packages
+- Much more
+
+## Soon to come features
+- Github project installer
+- Github project exporter
+- Status updater
+- Discord.py
+
+Discord bot hub, Is an light weight package you can use to manage all of your discord bots
+
+## Installing
+To install this package just run <br>
+`npm i discord-bot-hub -g`
+or `npm i discord-bot-hub`
+
