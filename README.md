@@ -5,7 +5,7 @@ Discord bot project manager
 # IMPORTANT
 This project is not published on npm yet<br>
 Estimated time to be published
-`3/5/21` `1:00 PM`
+`3/5/21` `1:00 PM PT`
 
 # Notice 
 Do not install this project!<br>
