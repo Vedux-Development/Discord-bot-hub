@@ -211,13 +211,13 @@ inquirer.prompt([{
 													shell.exec(`git clone ${answer.repo} ${botDir}`);
 													fs.writeFile(`./${botDir}/manage.js`, managejs2, (err) => {
 														// throws an error, you could also catch it here
-														console.log(err);
+														
 													});
 													inquirer.prompt([{
 														type: 'list',
 														name: 'managehub',
 														message: 'Would you like to go to manage hub, By going here you can manage your bot!',
-														choices: ['Yes', 'No'],
+														choices: ['Yes', 'No']
 													}])
 														.then(function(answer) {
 															if (answer.managehub == 'Yes') {
@@ -242,17 +242,20 @@ inquirer.prompt([{
 
 
 											fs.writeFile(`./${botDir}/manage.js`, managejs2, (err) => {
-												// throws an error, you could also catch it here
-												console.log(err);
 											});
-											inquirer.prompt([{
+											inquirer.prompt([
+												{
 												type: 'list',
-												name: 'managehub',
+												name: 'managehub22',
 												message: 'Would you like to go to manage hub, By going here you can manage your bot!',
-												choices: ['Yes', 'No'],
-											}])
+												choices: ["Yes","No"],
+												}
+											])
 												.then(function(answer) {
-													if (answer.managehub == 'Yes') {
+													if (answer.managehub22 == 'No'){
+														console.log("Ok bye")
+													}
+													if (answer.managehub22 == 'Yes') {
 														require('child_process').fork('managebots.js');
 													}
 												});
@@ -374,24 +377,22 @@ module.exports.help = {
 
 											fs.writeFile(`./${botDir}/manage.js`, managejs1, (err) => {
 												// throws an error, you could also catch it here
-												if (err) throw err;
-												console.log('Bot done generating');
-
-												inquirer.prompt([{
-													type: 'list',
-													name: 'managehub',
-													message: 'Would you like to go to manage hub, By going here you can install needed packages!',
-													choices: ['Yes', 'No'],
-												}])
-													.then(function(answer) {
-														if (answer.managehub == 'Yes') {
-															require('child_process').fork('managebots.js');
-														}
-														if (answer.managehub == 'No') {
-															console.log('Closing');
-														}
-													});
+									
 											});
+											inquirer.prompt([{
+												type: 'list',
+												name: 'managehub',
+												message: 'Would you like to go to manage hub, By going here you can install needed packages!',
+												choices: ['Yes', 'No'],
+											}])
+												.then(function(answer) {
+													if (answer.managehub == 'Yes') {
+														require('child_process').fork('managebots.js');
+													}
+													if (answer.managehub == 'No') {
+														console.log('Closing');
+													}
+												});
 										});
 								}
 							});
