@@ -1,2 +1,2 @@
 # Contributing
-This folder will be finishing later but please do not contribute as of right now.
+Just git clone and do some things and make a pull request
