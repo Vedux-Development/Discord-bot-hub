@@ -1,0 +1,7 @@
+{
+    "FileError": "Error occured could not make file please try again",
+    "Botdir": "Error occured could not make project, most likly because you already have a project using the same name!",
+    "Githubclone": "Error occured when trying to clone github repo, Most likly because you already have a project using the same name",
+    "Managebot": "An error has occured when trying to manage your project",
+    "Managehub": "An error has occured when trying to use the manage hub"
+}
