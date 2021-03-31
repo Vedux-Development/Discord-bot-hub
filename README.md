@@ -10,7 +10,7 @@ Estimated time to be published
 # Notice 
 Do not install this project!<br>
 This is just a npm project that I use for testing before I fully release Dbh!!
-<## How to use
+## How to use
 - 1. Open your terminal then run `npm install -g discord-bot-hub`
 - 2. Run `discord-bot-hub` or `dbh`
 - If on linux please do this in/with root/sudo permissions
