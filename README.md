@@ -1,6 +1,7 @@
 <img src="https://img.shields.io/npm/dw/discord-bot-hub?style=for-the-badge"> <br>
 # Vedux
-Discord bot project manager
+Discord bot project manager<br>
+Version 1.1.0 releasing sat.
 
 # Notice 
 Do not install this project!<br>
